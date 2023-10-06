@@ -373,6 +373,41 @@ span {
 	}
 }
 
+// CONTACT
+
+.contact {
+	padding: 6em 2em;
+	&__form {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+	}
+	&__form-box {
+		label {
+			display: block;
+			margin-bottom: 0.5em;
+			font-size: 2rem;
+		}
+		textarea {
+			max-width: 100%;
+			width: 100%;
+			min-width: 100%;
+		}
+		input,
+		textarea {
+			padding: 1em 2em;
+			margin-bottom: 2em;
+			width: 100%;
+			color: colors.$white;
+			background: none;
+			border: 1px solid rgba(255, 255, 255, 0.1);
+		}
+		&:focus {
+			outline: none;
+			border: 1px solid colors.$gold;
+		}
+	}
+}
+
 // FOOTER
 
 .footer {
