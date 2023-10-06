@@ -153,9 +153,9 @@ h1.company-name {
 			height: 100%;
 			border: 1px solid colors.$gold;
 			opacity: 0;
-			&:hover::before {
-				animation: pulse 1s;
-			}
+		}
+		&:hover::before {
+			animation: pulse 1s;
 		}
 	}
 }
