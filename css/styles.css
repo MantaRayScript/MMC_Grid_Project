@@ -547,4 +547,18 @@ span {
 .newsletter__form button:hover {
   color: #a01c35;
   background-color: #d6c78e;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.gallery img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gallery img:nth-child(odd) {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */
