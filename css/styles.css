@@ -561,4 +561,10 @@ span {
 }
 .gallery img:nth-child(odd) {
   display: none;
+}
+
+.footer {
+  padding: 3em 1em;
+  border-top: 1px solid #191919;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
