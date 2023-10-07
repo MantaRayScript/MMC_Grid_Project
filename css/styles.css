@@ -213,9 +213,6 @@
   .nav__link {
     color: #fff;
   }
-  .nav__link:hover {
-    color: #d6c78e;
-  }
   .nav__link::before {
     position: absolute;
     top: 0;

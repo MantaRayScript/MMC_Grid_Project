@@ -71,9 +71,6 @@
 		}
 		&__link {
 			color: colors.$white;
-			&:hover {
-				color: colors.$gold;
-			}
 			&::before {
 				position: absolute;
 				top: 0;
