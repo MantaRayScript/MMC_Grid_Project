@@ -39,7 +39,7 @@ h1.company-name {
 
 .section-title {
 	position: relative;
-	margin: 0 auto 3.2em;
+	margin: 0 auto 2em;
 	font-size: 3.2rem;
 	color: colors.$gold;
 	font-weight: 200;
@@ -165,19 +165,6 @@ span {
 		transition: color 0.3s;
 		&:hover {
 			color: colors.$gold;
-		}
-		&::before {
-			position: absolute;
-			top: 0;
-			left: 0;
-			content: "";
-			width: 100%;
-			height: 100%;
-			border: 1px solid colors.$gold;
-			opacity: 0;
-		}
-		&:hover::before {
-			animation: pulse 1s;
 		}
 	}
 }
@@ -347,6 +334,7 @@ span {
 			padding: 1em;
 			border: 1px solid colors.$gold;
 			background: none;
+			color: colors.$gold;
 			font-weight: bold;
 			cursor: pointer;
 			transition: background-color 0.3s, color 0.3s;
